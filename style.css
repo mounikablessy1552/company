@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    list-  style: none;
+}
+
+.main {
+    height: 100vh;
+    background-color: rgb(115, 115, 117);
+
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding-top: 20px;
+    font-size: 25px;
+
+}
+
+
+
+.home {
+    display: flex;
+    padding: 5rem 12%;
+}
+
+.imag {
+    flex-basis: 60%;
+    padding: 40px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto 10px;
+    font-family: Rubik, serif;
+    color: white;
+
+
+
+}
+
+form input,
+p {
+    padding: 7px;
+    margin: 10px;
+    width: 230px;
+}
+
+form button {
+    margin: 15px;
+    width: 100px;
+    height: 30px; 
+    border: none;
+    background-color: rgb(83, 83, 162);
+    color: white;
+    margin-right: 125px;
+}
+
+.adv {
+    padding: 2rem 10%;
+    height: auto;
+
+}
+
+.text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 33.33%;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn button {
+
+    margin: 30px;
+    width: 130px;
+    height: 40px;
+    border: none;
+    background-color: rgb(83, 83, 162);
+    color: white;
+
+}
+
+.sec2 {
+    background-color: rgb(222, 233, 237);
+    height: 700px;
+    width: 100%;
+}
+
+.feature {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+}
+
+.img {
+    height: 450px;
+    width: 500px;
+    float: left;
+}
+
+.img1 i {
+    margin-left: 400px;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.img1 span {
+    margin-left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.img1 p {
+    margin-left: 960px;
+    font-size: 12px;
+    width: 500px;
+    text-align: justify;
+    height: 30px;
+}
+
+.sec4 {
+    background-color: rgb(212, 218, 233);
+    height: auto;
+    padding: 3rem 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+.one i span {
+    margin-left: 15px;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+
+.one {
+    margin: 20px;
+    background-color: white;
+    padding: 3rem;
+    border-radius: 5px;
+}
+
+
+.one-center {
+    padding: 7rem 5rem;
+    text-align: center;
+}
+
+.but {
+    background-color: rgb(58, 58, 150);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 15px auto;
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.one-center i {
+    margin-bottom: 10px;
+    font-size: 25px;
+
+}
+
+
+.sec5 {
+    background-color: rgb(91, 89, 89);
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.special {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.special h1 {
+    color: white;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.special p {
+    font-size: 14px;
+    text-align: center;
+    color: white;
+}
+
+.sec6 {
+    background-color: white;
+    height: auto;
+    padding: 2rem 5rem;
+
+}
+
+.sec6 h1 {
+    margin: 30px;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.button3 {
+    width: 80px;
+}
+
+.team {
+    display: flex;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.team-info {
+
+    background-color: rgb(206, 228, 247);
+    height: auto;
+    padding: 2rem 6rem;
+}
+
+.icon {
+    margin-left: 19px;
+
+}
+
+.team2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.class {
+    padding: 3rem;
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+}
+
+
+.regular {
+    text-align: center;
+    font-size: 24px;
+
+}
+
+
+.ten {
+    font-size: 19px;
+}
+
+.mouni {
+    border: 2px solid gray;
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    margin: 15px;
+}
+
+.main3 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.here {
+    background-color: rgb(40, 40, 140);
+    color: white;
+    text-align: center;
+    width: 140px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: none; */
+    margin: 40px;
+
+}
+
+.sec8 {
+    background-color: rgb(162, 160, 160);
+    height: 38vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.last {
+height: 200px;
+width: 400px;
+text-align: center;
+margin-top: 30px; 
+background-color: white;
+margin-bottom: 20px;
+border-radius: 5px;
+
+}
+
+
+.map{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+    
+}
+.contact{
+ display: flex;
+ flex-direction: column;
+margin: 20px auto;
+
+}
+
+
+.sec9{
+background-color: rgb(119, 120, 120);
+padding: 2rem;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.final{
+font-size: medium;
+text-align: center;
+
+}
+
+.para{
+font-size: 15px;
+margin-bottom: 20px;
+padding: 0px;
+    width: auto;
+}
